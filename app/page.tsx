@@ -6,7 +6,9 @@ export default function Home() {
       <div className="flex items-center justify-center flex-col w-120 space-y-5 bg-neutral-950/80 backdrop-blur-sm border border-neutral-800 rounded-2xl p-8 shadow-2xl">
         <Image src={me} alt="me" className="rounded-full w-64" />
         <h1 className="text-3xl font-light text-[#F5F5F5]">Bartosz Krawczyk</h1>
-        <p className="font-extralight">Software Developer & Entrepreneur</p>
+        <p className="font-extralight text-[#F5F5F5]">
+          Software Developer & Entrepreneur
+        </p>
         <div className="grid grid-cols-3 gap-4 mb-6">
           <div className="text-center">
             <div className="text-white text-lg font-bold">3+</div>
