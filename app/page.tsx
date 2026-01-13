@@ -2,7 +2,7 @@ import Image from "next/image";
 import me from "../public/me.png";
 export default function Home() {
   return (
-    <div className="flex items-center justify-center bg-[#080808] space-y-5 min-h-screen">
+    <div className="flex items-center justify-center bg-[#080808] space-y-5 min-h-screen p-4">
       <div className="flex items-center justify-center flex-col w-120 space-y-5 bg-neutral-950/80 backdrop-blur-sm border border-neutral-800 rounded-2xl p-8 shadow-2xl">
         <Image src={me} alt="me" className="rounded-full w-64" />
         <h1 className="text-3xl font-light text-[#F5F5F5]">Bartosz Krawczyk</h1>
